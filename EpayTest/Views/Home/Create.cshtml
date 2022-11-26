@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Test Epay";
+    
+}
+
+<h2>Test Epay</h2>
+<form action="~/Home/Create" method="post">
+    <table align="center">
+        <tr>
+            <td><label>Enter Amount</label></td>
+            <td><input type="text" name="UserInput" value="" class="form-control" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Get" class="btn btn-success" /></td>
+            <td></td>
+        </tr>
+        <tr><td>@ViewBag.UserOutPut10</td></tr>
+        <tr><td>@ViewBag.UserOutPut50</td> </tr>
+        <tr><td>@ViewBag.UserOutPut50_10</td> </tr>
+        <tr><td>@ViewBag.UserOutPut100</td> </tr>
+        <tr><td>@ViewBag.UserOutPut100_10</td> </tr>
+
+    </table>
+
+</form>
+
